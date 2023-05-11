@@ -7,7 +7,7 @@ import Logo from "../images/logo 1.png";
 function Footer() {
   return (
     <div className="bg-white">
-      <div className="flex justify-between mx-20 my-5">
+      <div className="flex justify-between ml-20 my-5">
         <div className="font-extralight">
           <h2 className="mb-10">Contents</h2>
           <a href="#life">
@@ -54,18 +54,16 @@ function Footer() {
           <h2>21013003@UnikaDeLaSalle.ac.id</h2>
         </div>
 
-        <div className="text-black p-5">
-          <div className="flex">
-            <img
-              className="w-[179px] h-auto -mt-5 ml-[250px] mix-blend-exclusion"
-              src={Logo}
-              alt=""
-            />
-          </div>
-          <h2 className="font-extralight text-[30px]">
+        <div className="text-black p-5 pr-10">
+          <img
+            className="w-[200px] h-auto -mt-5 mix-blend-exclusion"
+            src={Logo}
+            alt=""
+          />
+          <h2 className="font-extralight text-[20px]">
             A Simple Way To A Better Life
           </h2>
-          <p className="font-extralight ml-[180px] mt-[60px]">
+          <p className="font-extralight mt-[75px]">
             Copyright © 2023 UAS WebPro
           </p>
         </div>

@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "../src/components/header";
-import gandhi from "../src/images/gandhi.png";
-import workout from "../src/images/workout.png";
+import "../index.css";
+import Header from "../components/header";
+import gandhi from "../images/gandhi.png";
+import workout from "../images/workout.png";
 
 function Workout() {
   return (
