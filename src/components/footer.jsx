@@ -3,25 +3,28 @@ import Discord from "../images/discord.png";
 import Instagram from "../images/instagram.png";
 import Facebook from "../images/facebook.png";
 import Logo from "../images/logo 1.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="bg-white">
       <div className="flex justify-between ml-20 my-5">
-        <div className="font-extralight">
+        <div className="font-extralight flex-col">
           <h2 className="mb-10">Contents</h2>
-          <a href="#life">
-            <h2>LifeStyle?</h2>
-          </a>
-          <a href="">
-            <h2>Diets</h2>
-          </a>
-          <a href="workout.html">
-            <h2>Workouts</h2>
-          </a>
-          <a href="aboutus.html">
-            <h2>About Us</h2>
-          </a>
+          <ul>
+            <li>
+              <Link to="/">Lifestyle?</Link>
+            </li>
+            <li>
+              <Link to="/diets">Diets</Link>
+            </li>
+            <li>
+              <Link to="/workout">Workouts</Link>
+            </li>
+            <li>
+              <Link to="/aboutus">About Us</Link>
+            </li>
+          </ul>
         </div>
 
         <div className="flex mt-16 justify-between">

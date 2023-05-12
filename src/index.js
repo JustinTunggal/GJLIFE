@@ -6,12 +6,11 @@ import HomePage from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Diets from "./pages/Diets";
 import Workout from "./pages/Workout";
-import Calculator from "./components/calculator";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Calculator />,
+    element: <HomePage />,
   },
   {
     path: "/diets",
