@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo 1.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -13,30 +14,30 @@ function Header() {
 
         <div className="relative" id="navbar">
           <nav className="font-extralight text-2xl text-black">
-            <a
-              className="border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-white"
-              href=""
+            <Link
+              className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-white"
+              to="/"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-white"
-              href=""
+              to="/diets"
             >
               Diets
-            </a>
-            <a
-              className="border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-white"
-              href=""
+            </Link>
+            <Link
+              className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-white"
+              to="/workout"
             >
               Workouts
-            </a>
-            <a
-              className="border-solid ease-in-out transition duration-500 rounded-[10px] mr-10 px-6 py-2 hover:bg-biege hover:text-white mx-[10px]"
-              href="./App.js"
+            </Link>
+            <Link
+              className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-white"
+              to="/aboutus"
             >
               About Us
-            </a>
+            </Link>
           </nav>
         </div>
       </div>

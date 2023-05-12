@@ -1,17 +1,35 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "tailwindcss/tailwind.css";
-import App from "./App";
-import Home from "./pages/Home";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import Diets from "./pages/Diets";
 import Workout from "./pages/Workout";
-import AboutUs from "./pages/aboutus";
-import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/diets",
+    element: <Diets />,
+  },
+  {
+    path: "/workout",
+    element: <Workout />,
+  },
+
+  {
+    path: "/aboutus",
+    element: <AboutUs />,
+  },
+]);
+
+ReactDOM.render(
   <React.StrictMode>
-    <Home />
-  </React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-
-reportWebVitals();

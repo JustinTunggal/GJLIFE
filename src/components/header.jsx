@@ -1,38 +1,43 @@
 import React from "react";
 import logo from "../images/logo 1.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
-      <div className="flex justify-between items-center p-5 font-poppins">
-        <img className="w-[150px] h-auto ml-5" src={logo} alt="logo" />
+      <div className="flex justify-between items-center p-5">
+        <img
+          className="w-[150px] h-auto ml-5 mix-blend-exclusion"
+          src={logo}
+          alt="logo"
+        />
 
         <div className="relative" id="navbar">
           <nav className="font-extralight text-2xl text-white">
-            <a
-              className="border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-black"
-              href=""
+            <Link
+              className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-black"
+              to="/"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-black"
-              href=""
+              to="/diets"
             >
               Diets
-            </a>
-            <a
-              className="border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-black"
-              href=""
+            </Link>
+            <Link
+              className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-black"
+              to="/workout"
             >
               Workouts
-            </a>
-            <a
-              className="border-solid ease-in-out transition duration-500 rounded-[10px] mr-10 px-6 py-2 hover:bg-biege hover:text-black mx-[10px]"
-              href="/"
+            </Link>
+            <Link
+              className="mx-[10px] border-solid ease-in-out transition duration-500 rounded-[10px] px-6 py-2 hover:bg-biege hover:text-black"
+              to="/aboutus"
             >
               About Us
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
