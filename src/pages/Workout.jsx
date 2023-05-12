@@ -1,12 +1,14 @@
 import React from "react";
 import "../index.css";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import gandhi from "../images/gandhi.png";
 import workout from "../images/workout.png";
+import Card from "../components/card";
 
 function Workout() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden bg-black">
       <div className="bg-black relative">
         <img
           className="h-auto w-[645px] right-0 top-0 absolute z-0"
@@ -47,6 +49,44 @@ function Workout() {
           alt=""
         />
       </div>
+
+      <section className="m-10">
+        <h1 className="text-[75px] mb-10 font-semibold text-white mx-auto text-center">
+          Workout Recommendations
+        </h1>
+        <h1 className="text-[50px] text-white my-10 font-semibold">Easy</h1>
+        <div className="flex gap-5 noScroll overflow-x-scroll scroll-smooth">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+
+        <h1 className="text-[50px] text-white my-10 font-semibold">
+          Intermediate
+        </h1>
+        <div className="flex gap-5 noScroll overflow-x-scroll scroll-smooth">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+
+        <h1 className="text-[50px] text-white my-10 font-semibold">Advanced</h1>
+        <div className="flex gap-5 noScroll overflow-x-scroll scroll-smooth">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </section>
+
+      <section className="w-screen h-auto pt-5 bg-white">
+        <Footer />
+      </section>
     </div>
   );
 }

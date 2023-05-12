@@ -6,6 +6,7 @@ import HomePage from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Diets from "./pages/Diets";
 import Workout from "./pages/Workout";
+import Card from "./components/card";
 
 const router = createBrowserRouter([
   {

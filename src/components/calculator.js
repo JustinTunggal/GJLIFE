@@ -41,11 +41,11 @@ class Calculator extends Component {
     }
 
     let bmrCalc = "";
-    let height = heightCm * 4.799;
+    let height = heightCm;
     if (gender == 2) {
-      bmrCalc = 447.593 + 9.247 * weight + 3.098 * height - 4.33 * age;
+      bmrCalc = 10 * weight + 6.25 * height - 5 * age + 5;
     } else if (gender == 1) {
-      bmrCalc = 88.362 + 13.397 * weight + 4.799 * height - 5.677 * age;
+      bmrCalc = 10 * weight + 6.25 * height - 5 * age - 161;
     }
 
     this.setState({ bmr: bmrCalc });
