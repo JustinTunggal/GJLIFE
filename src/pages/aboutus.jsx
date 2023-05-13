@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import Header from "../components/header2";
-import Footer from "../components/footer";
+import Footer from "../components/footer2";
 import Justin from "../images/justin.png";
 import Gerald from "../images/gerald.png";
 import Meme1 from "../images/meme (1).png";
