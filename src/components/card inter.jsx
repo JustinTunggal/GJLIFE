@@ -10,7 +10,9 @@ const WorkoutCard = () => {
   }, []);
 
   const getCard = async () => {
-    const response = await axios.get("http://localhost:5000/workouteasy");
+    const response = await axios.get(
+      "http://localhost:5000/workoutintermediate"
+    );
     setCard(response.data);
   };
 
