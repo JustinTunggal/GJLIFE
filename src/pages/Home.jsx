@@ -29,7 +29,7 @@ import Panah from "../images/panah.png";
 function homePage() {
   return (
     <div className="scroll-smooth font-poppins snap-y snap-mandatory h-screen w-screen mx-auto overflow-scroll overflow-x-hidden relative">
-      <section className="snap-start snap-always h-screen w-screen bg-white">
+      <section className="snap-start snap-always h-screen w-screen bg-white2">
         <Header />
         <div className="flex justify-between items-center" id="body">
           <img className="w-[750px] h-auto" src={Gambar1} alt="" />
@@ -122,7 +122,7 @@ function homePage() {
         </div>
       </section>
 
-      <section className="snap-start snap-always h-screen w-screen bg-pink">
+      <section className="snap-start snap-always h-screen w-screen bg-pink3">
         <img className="absolute left-0 h-[790px]" src={Dua} alt="" />
         <div className="flex justify-between mx-10 py-[90px] align-middle">
           <img className="relative" src={Makanan} alt="" />
@@ -149,7 +149,7 @@ function homePage() {
         </div>
       </section>
 
-      <section className="snap-start snap-always h-screen w-screen bg-blue">
+      <section className="snap-start snap-always h-screen w-screen bg-blue2">
         <img
           className="right-0 absolute h-[790px] mix-blend-hard-light"
           src={Tiga}
@@ -217,7 +217,7 @@ function homePage() {
         </div>
       </section>
 
-      <section className="snap-start snap-always h-screen w-screen bg-green2">
+      <section className="snap-start snap-always h-screen w-screen bg-green4">
         <img
           className="absolute right-0 mix-blend-luminosity transform rotate-180 -scale-y-100 h-auto w-[400px]"
           src={Fern}
@@ -333,7 +333,7 @@ function homePage() {
         </div>
       </section>
 
-      <section class="snap-start snap-always h-screen w-screen bg-ungu">
+      <section class="snap-start snap-always h-screen w-screen bg-ungu2">
         <img class="h-[790px] right-0 absolute" src={Sembilan} alt="" />
 
         <h1 class="font-bold text-pinkwhite text-[150px] pt-[100px] ml-[50px]">
