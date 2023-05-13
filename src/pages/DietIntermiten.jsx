@@ -24,21 +24,21 @@ function dietintermiten() {
         />
         <Header />
         <div className="relative">
-          <h1 class="text-[105px] text-grey drop-shadow-lg font-bold mt-[100px] mx-[80px]">
+          <h1 className="text-[105px] text-grey drop-shadow-lg font-bold mt-[100px] mx-[80px]">
             DIET INTERMITEN
           </h1>
         </div>
       </section>
 
-      <section class=" text-white relative min-w-full overflow-x-hidden">
-        <div class="absolute w-max top-0 right-0">
-          <img class="bg-cover w-screen h-[1070px]" src={AInter} alt="" />
+      <section className=" text-white relative min-w-full overflow-x-hidden">
+        <div className="absolute w-max top-0 right-0">
+          <img className="bg-cover w-screen h-[1070px]" src={AInter} alt="" />
         </div>
-        <div class="bg-pink w-[500px] h-[90px] text-center mt-10 rounded-r-[20px] text-[30px] font-serif drop-shadow-lg">
-          <h1 class="py-[25px] drop-shadow-lg">Apa itu Diet Intermiten?</h1>
+        <div className="bg-pink w-[500px] h-[90px] text-center mt-10 rounded-r-[20px] text-[30px] font-serif drop-shadow-lg">
+          <h1 className="py-[25px] drop-shadow-lg">Apa itu Diet Intermiten?</h1>
         </div>
-        <div class="py-[50px] pb-[50px] ml-10 text-justify w-[770px] ">
-          <p class="text-[28px] text-justify font-Poppins drop-shadow-lg text-black">
+        <div className="py-[50px] pb-[50px] ml-10 text-justify w-[770px] ">
+          <p className="text-[28px] text-justify font-Poppins drop-shadow-lg text-black">
             Diet Intermiten adalah pola makan yang melibatkan siklus antara
             periode puasa atau pengurangan asupan kalori dengan periode makan
             normal. Dalam diet ini, Anda mengonsumsi makanan selama jangka waktu
@@ -59,37 +59,37 @@ function dietintermiten() {
         </div>
       </section>
 
-      <section class="bg-white relative py-12">
-        <div class="bg-pink w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[30px] text-white">
+      <section className="bg-white relative py-12">
+        <div className="bg-pink w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[30px] text-white">
             Apa saja asupan yang harus dikendalikan?
           </h1>
         </div>
 
-        <div class="mt-[80px] ml-[200px] flex">
-          <div class=" mr-14">
-            <img class="drop-shadow-lg" src={SayurBuah} alt="" />
-            <div class="my-5 text-center">
-              <h1 class="text-[28px] font-Poppins font-bold drop-shadow-lg">
+        <div className="mt-[80px] ml-[200px] flex">
+          <div className=" mr-14">
+            <img className="drop-shadow-lg" src={SayurBuah} alt="" />
+            <div className="my-5 text-center">
+              <h1 className="text-[28px] font-Poppins font-bold drop-shadow-lg">
                 Fruits
               </h1>
             </div>
           </div>
 
-          <div class="mx-[60px] flex">
+          <div className="mx-[60px] flex">
             <div>
-              <img class="drop-shadow-lg" src={Karbo} alt="" />
-              <div class="my-5 text-center">
-                <h1 class="text-[28px] font-Poppins font-semibold drop-shadow-lg">
+              <img className="drop-shadow-lg" src={Karbo} alt="" />
+              <div className="my-5 text-center">
+                <h1 className="text-[28px] font-Poppins font-semibold drop-shadow-lg">
                   Karbohidrat
                 </h1>
               </div>
             </div>
 
-            <div class="mx-32">
-              <img class="drop-shadow-lg" src={Protein} alt="" />
-              <div class="my-5 text-center">
-                <h1 class="text-[28px] font-Poppins font-semibold drop-shadow-lg">
+            <div className="mx-32">
+              <img className="drop-shadow-lg" src={Protein} alt="" />
+              <div className="my-5 text-center">
+                <h1 className="text-[28px] font-Poppins font-semibold drop-shadow-lg">
                   Lean Protein
                 </h1>
               </div>
@@ -98,21 +98,21 @@ function dietintermiten() {
         </div>
       </section>
 
-      <section class="py-[80px] bg-grey relative">
-        <div class="bg-pink w-[400px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+      <section className="py-[80px] bg-grey relative">
+        <div className="bg-pink w-[400px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Tujuan & Manfaat
           </h1>
         </div>
 
-        <div class="py-16 mx-12 font-medium">
-          <p class="text-[28px] text-justify drop-shadow-lg">
+        <div className="py-16 mx-12 font-medium">
+          <p className="text-[28px] text-justify drop-shadow-lg">
             Tujuan dari diet intermiten adalah membantu menurunkan berat badan,
             meningkatkan kesehatan jantung, meningkatkan sensitivitas insulin,
             dan meningkatkan metabolisme tubuh.
           </p>
 
-          <p class="text-[28px] mt-10 text-justify drop-shadow-lg">
+          <p className="text-[28px] mt-10 text-justify drop-shadow-lg">
             Berikut adalah beberapa manfaat dari diet intermiten yang telah
             didukung oleh penelitian:
             <br /> <br />
@@ -137,9 +137,9 @@ function dietintermiten() {
             lelah, atau iritasi lambung juga mungkin terjadi pada beberapa orang
             yang menjalankan diet intermiten.
           </p>
-          <div class="absolute right-0 top-[320px] overflow-x-hidden">
+          <div className="absolute right-0 top-[320px] overflow-x-hidden">
             <img
-              class="grayscale bg-cover w-max h-max brightness-125 opacity-40"
+              className="grayscale bg-cover w-max h-max brightness-125 opacity-40"
               src={Benefit}
               alt=""
             />
@@ -147,18 +147,18 @@ function dietintermiten() {
         </div>
       </section>
 
-      <section class="relative pt-10 ">
-        <div class="absolute top-0">
-          <img class="bg-cover w-screen" src={InterMakanan} alt="" />
+      <section className="relative pt-10 ">
+        <div className="absolute top-0">
+          <img className="bg-cover w-screen" src={InterMakanan} alt="" />
         </div>
-        <div class="bg-pink w-[420px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+        <div className="bg-pink w-[420px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Makanan yang disarankan
           </h1>
         </div>
 
-        <div class="py-[70px] pb-28 left-14 w-[820px] text-justify  relative">
-          <p class="text-[28px] text-justify drop-shadow-lg font-medium font-Poppins">
+        <div className="py-[70px] pb-28 left-14 w-[820px] text-justify  relative">
+          <p className="text-[28px] text-justify drop-shadow-lg font-medium font-Poppins">
             1. Sayuran dan buah-buahan: Sayuran dan buah-buahan adalah sumber
             serat, vitamin, dan mineral yang penting untuk kesehatan tubuh.
             <br /> <br />
@@ -178,16 +178,20 @@ function dietintermiten() {
         </div>
       </section>
 
-      <section class="relative w-screen bg-pink h-screen">
-        <img class="bg-cover absolute top-0 h-[1500px]" src={TdkInter} alt="" />
+      <section className="relative w-screen bg-pink h-screen">
+        <img
+          className="bg-cover absolute top-0 h-[1500px]"
+          src={TdkInter}
+          alt=""
+        />
 
-        <div class="bg-mermud absolute my-5 top-10 right-0 w-[850px] h-[90px]  text-center rounded-l-2xl font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+        <div className="bg-mermud absolute my-5 top-10 right-0 w-[850px] h-[90px]  text-center rounded-l-2xl font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Makanan yang tidak disarankan
           </h1>
         </div>
-        <div class="text-start relative justify-start ml-[700px] w-[800px] pt-[200px] pb-24">
-          <p class="text-[30px] text-justify">
+        <div className="text-start relative justify-start ml-[700px] w-[800px] pt-[200px] pb-24">
+          <p className="text-[30px] text-justify">
             1. Makanan tinggi gula dan karbohidrat: Makanan yang mengandung
             banyak gula dan karbohidrat dapat memicu lonjakan kadar gula darah
             dan menyebabkan Anda merasa lapar lebih cepat. Oleh karena itu,
@@ -215,23 +219,23 @@ function dietintermiten() {
         </div>
       </section>
 
-      <section class="py-[80px] bg-grey relative">
-        <div class="bg-pink w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+      <section className="py-[80px] bg-grey relative">
+        <div className="bg-pink w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Tips dalam menjalani Diet Intermiten
           </h1>
         </div>
 
-        <div class="absolute right-0 top-[350px] overflow-x-hidden">
+        <div className="absolute right-0 top-[350px] overflow-x-hidden">
           <img
-            class=" bg-cover w-max h-max filter opacity-20"
+            className=" bg-cover w-max h-max filter opacity-20"
             src={Lampu}
             alt=""
           />
         </div>
 
-        <div class="py-12 font-medium mx-10">
-          <p class="text-[35px] mt-10 font-Poppins text-justify drop-shadow-lg text-black">
+        <div className="py-12 font-medium mx-10">
+          <p className="text-[35px] mt-10 font-Poppins text-justify drop-shadow-lg text-black">
             Berikut adalah beberapa tips atau metode yang dapat membantu dalam
             menjalankan diet intermiten:
             <br /> <br />
@@ -266,17 +270,17 @@ function dietintermiten() {
         </div>
       </section>
 
-      <section class="relative">
-        <img class="grayscale h-[1450px]" src={SakitInter} alt="" />
+      <section className="relative">
+        <img className="grayscale h-[1450px]" src={SakitInter} alt="" />
 
-        <div class="bg-merah absolute top-8 rounded-[25px] right-9 w-[850px] text-center h-[100px] drop-shadow-lg">
-          <h1 class="text-white text-[30px] py-7">
+        <div className="bg-merah absolute top-8 rounded-[25px] right-9 w-[850px] text-center h-[100px] drop-shadow-lg">
+          <h1 className="text-white text-[30px] py-7">
             Potensi Risiko yang perlu diperhatikan
           </h1>
         </div>
 
-        <div class="my-10 absolute right-12 ml-[670px] text-justify top-[120px] ">
-          <p class="text-[29px] font-Poppins font-medium text-merah drop-shadow-lg">
+        <div className="my-10 absolute right-12 ml-[670px] text-justify top-[120px] ">
+          <p className="text-[29px] font-Poppins font-medium text-merah drop-shadow-lg">
             Diet intermiten dapat memiliki beberapa risiko potensial, tergantung
             pada jenis diet dan cara pelaksanaannya. Beberapa risiko yang dapat
             terjadi meliputi:
