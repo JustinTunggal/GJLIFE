@@ -20,21 +20,21 @@ function dietvegan() {
         <img className="absolute" src={Vegan} alt="" />
         <Header />
         <div className="relative">
-          <h1 class=" text-veganJudul text-[100px] font-bold mt-[125px] mx-[80px]">
+          <h1 className=" text-veganJudul text-[100px] font-bold mt-[125px] mx-[80px]">
             DIET VEGAN
           </h1>
         </div>
       </section>
 
-      <section class=" text-white relative min-w-full overflow-x-hidden">
-        <div class="absolute w-max top-0 right-0">
-          <img class="bg-cover w-screen h-[585px]" src={AVegan} alt="" />
+      <section className=" text-white relative min-w-full overflow-x-hidden">
+        <div className="absolute w-max top-0 right-0">
+          <img className="bg-cover w-screen h-[585px]" src={AVegan} alt="" />
         </div>
-        <div class="bg-veganGreen w-[500px] h-[90px] text-center mt-10 rounded-r-[20px] text-[30px] font-serif drop-shadow-lg">
-          <h1 class="py-[25px] drop-shadow-lg">Apa itu Diet Vegan?</h1>
+        <div className="bg-veganGreen w-[500px] h-[90px] text-center mt-10 rounded-r-[20px] text-[30px] font-serif drop-shadow-lg">
+          <h1 className="py-[25px] drop-shadow-lg">Apa itu Diet Vegan?</h1>
         </div>
-        <div class="py-[30px] pb-[50px] ml-10 text-justify w-[1000px] ">
-          <p class="text-[28px] text-justify font-Poppins drop-shadow-lg text-black">
+        <div className="py-[30px] pb-[50px] ml-10 text-justify w-[1000px] ">
+          <p className="text-[28px] text-justify font-Poppins drop-shadow-lg text-black">
             Diet Zone adalah program diet yang diperkenalkan oleh Dr. Barry
             Sears, seorang ahli biokimia Amerika pada tahun 1995. Diet ini
             didasarkan pada prinsip diet yang seimbang antara karbohidrat,
@@ -49,36 +49,36 @@ function dietvegan() {
         </div>
       </section>
 
-      <section class="bg-white relative py-12">
-        <div class="bg-veganGreen w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[30px] text-white">
+      <section className="bg-white relative py-12">
+        <div className="bg-veganGreen w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[30px] text-white">
             Apa saja asupan yang harus dikendalikan?
           </h1>
         </div>
 
-        <div class="mt-[80px] ml-[110px] flex">
+        <div className="mt-[80px] ml-[110px] flex">
           <div>
-            <img class="drop-shadow-lg" src={Buah} alt="" />
-            <div class="my-5 text-center">
-              <h1 class="text-[28px] font-Poppins font-bold drop-shadow-lg">
+            <img className="drop-shadow-lg" src={Buah} alt="" />
+            <div className="my-5 text-center">
+              <h1 className="text-[28px] font-Poppins font-bold drop-shadow-lg">
                 Buah-buahan
               </h1>
             </div>
           </div>
 
-          <div class="mx-[150px]">
-            <img class="drop-shadow-lg" src={Sayur} alt="" />
-            <div class="my-5 text-center">
-              <h1 class="text-[28px] font-Poppins font-bold drop-shadow-lg">
+          <div className="mx-[150px]">
+            <img className="drop-shadow-lg" src={Sayur} alt="" />
+            <div className="my-5 text-center">
+              <h1 className="text-[28px] font-Poppins font-bold drop-shadow-lg">
                 Sayuran
               </h1>
             </div>
           </div>
 
-          <div class="">
-            <img class="drop-shadow-lg" src={Biji} alt="" />
-            <div class="my-5 text-center">
-              <h1 class="text-[28px] font-Poppins font-bold drop-shadow-lg">
+          <div className="">
+            <img className="drop-shadow-lg" src={Biji} alt="" />
+            <div className="my-5 text-center">
+              <h1 className="text-[28px] font-Poppins font-bold drop-shadow-lg">
                 Biji-bijian & <br /> Kacang-kacangan
               </h1>
             </div>
@@ -86,15 +86,15 @@ function dietvegan() {
         </div>
       </section>
 
-      <section class="py-[80px] bg-grey relative">
-        <div class="bg-veganGreen w-[400px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+      <section className="py-[80px] bg-grey relative">
+        <div className="bg-veganGreen w-[400px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Tujuan & Manfaat
           </h1>
         </div>
 
-        <div class="py-16 mx-12 font-medium">
-          <p class="text-[28px] text-justify drop-shadow-lg">
+        <div className="py-16 mx-12 font-medium">
+          <p className="text-[28px] text-justify drop-shadow-lg">
             Tujuan dari diet vegan dapat beragam, termasuk alasan kesehatan,
             lingkungan, etika, atau keagamaan. Beberapa orang memilih diet vegan
             karena percaya bahwa mengonsumsi makanan yang hanya berasal dari
@@ -104,7 +104,7 @@ function dietvegan() {
             membantu mengurangi dampak perubahan iklim.
           </p>
 
-          <p class="text-[28px] mt-10 text-justify drop-shadow-lg">
+          <p className="text-[28px] mt-10 text-justify drop-shadow-lg">
             Diet vegan yang seimbang dan direncanakan dengan baik dapat
             memberikan sejumlah manfaat kesehatan, di antaranya:
             <br /> <br />
@@ -141,9 +141,9 @@ function dietvegan() {
             memulai diet vegan dan memastikan bahwa asupan nutrisi Anda
             mencukupi kebutuhan tubuh.
           </p>
-          <div class="absolute right-0 top-[320px] overflow-x-hidden">
+          <div className="absolute right-0 top-[320px] overflow-x-hidden">
             <img
-              class="grayscale bg-cover w-max h-max brightness-125 opacity-40"
+              className="grayscale bg-cover w-max h-max brightness-125 opacity-40"
               src={Benefits}
               alt=""
             />
@@ -151,18 +151,22 @@ function dietvegan() {
         </div>
       </section>
 
-      <section class="relative pt-10 ">
-        <div class="absolute top-0">
-          <img class="bg-cover w-screen h-[765px]" src={MakananVegan} alt="" />
+      <section className="relative pt-10 ">
+        <div className="absolute top-0">
+          <img
+            className="bg-cover w-screen h-[765px]"
+            src={MakananVegan}
+            alt=""
+          />
         </div>
-        <div class="bg-veganGreen w-[420px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+        <div className="bg-veganGreen w-[420px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Makanan yang disarankan
           </h1>
         </div>
 
-        <div class="pt-7 pb-28 left-14 w-[880px] text-justify  relative">
-          <p class="text-[28px] text-justify drop-shadow-lg font-medium font-Poppins">
+        <div className="pt-7 pb-28 left-14 w-[880px] text-justify  relative">
+          <p className="text-[28px] text-justify drop-shadow-lg font-medium font-Poppins">
             1. Buah-buahan: Semua jenis buah-buahan baik segar maupun beku
             <br />
             2. Sayuran: Semua jenis sayuran termasuk bayam, brokoli, wortel,
@@ -185,16 +189,16 @@ function dietvegan() {
         </div>
       </section>
 
-      <section class="relative w-screen bg-pink h-screen">
-        <img class="bg-cover absolute top-0 " src={TdkVegan} alt="" />
+      <section className="relative w-screen bg-pink h-screen">
+        <img className="bg-cover absolute top-0 " src={TdkVegan} alt="" />
 
-        <div class="bg-mermud absolute top-10 right-0 w-[660px] h-[90px]  text-center rounded-l-2xl font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+        <div className="bg-mermud absolute top-10 right-0 w-[660px] h-[90px]  text-center rounded-l-2xl font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Makanan yang tidak disarankan
           </h1>
         </div>
-        <div class="text-justify relative ml-[890px] pt-[200px] pb-24 pr-10">
-          <p class="text-[30px] text-white font-medium">
+        <div className="text-justify relative ml-[890px] pt-[200px] pb-24 pr-10">
+          <p className="text-[30px] text-white font-medium">
             1. Roti, pasta, dan nasi
             <br /> <br />
             2. Gula, permen, dan coklat
@@ -208,23 +212,23 @@ function dietvegan() {
         </div>
       </section>
 
-      <section class="py-[80px] bg-grey relative">
-        <div class="bg-veganGreen w-[450px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+      <section className="py-[80px] bg-grey relative">
+        <div className="bg-veganGreen w-[450px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Tips dalam menjalani Diet Zone
           </h1>
         </div>
 
-        <div class="absolute right-0 top-[350px] overflow-x-hidden">
+        <div className="absolute right-0 top-[350px] overflow-x-hidden">
           <img
-            class=" bg-cover w-max h-max filter opacity-20"
+            className=" bg-cover w-max h-max filter opacity-20"
             src={Lampu}
             alt=""
           />
         </div>
 
-        <div class="py-12 font-medium mx-10">
-          <p class="text-[35px] mt-10 font-Poppins text-justify drop-shadow-lg text-black">
+        <div className="py-12 font-medium mx-10">
+          <p className="text-[35px] mt-10 font-Poppins text-justify drop-shadow-lg text-black">
             Berikut adalah beberapa tips dan metode yang dapat membantu Anda
             menjalankan diet vegan dengan sehat dan berhasil:
             <br /> <br />
@@ -280,17 +284,17 @@ function dietvegan() {
         </div>
       </section>
 
-      <section class="relative">
-        <img class="grayscale h-[1900px]" src={SakitVegan} alt="" />
+      <section className="relative">
+        <img className="grayscale h-[1900px]" src={SakitVegan} alt="" />
 
-        <div class="bg-merah absolute top-8 rounded-[25px] right-9 w-[850px] text-center h-[100px] drop-shadow-lg">
-          <h1 class="text-white text-[30px] py-7">
+        <div className="bg-merah absolute top-8 rounded-[25px] right-9 w-[850px] text-center h-[100px] drop-shadow-lg">
+          <h1 className="text-white text-[30px] py-7">
             Potensi Risiko yang perlu diperhatikan
           </h1>
         </div>
 
-        <div class="my-10 absolute right-12 ml-[670px] text-justify top-[120px] ">
-          <p class="text-[29px] font-Poppins font-medium text-merah drop-shadow-lg">
+        <div className="my-10 absolute right-12 ml-[670px] text-justify top-[120px] ">
+          <p className="text-[29px] font-Poppins font-medium text-merah drop-shadow-lg">
             Meskipun diet vegan memiliki banyak manfaat, namun ada beberapa
             risiko yang dapat timbul jika tidak dilakukan dengan benar. Beberapa
             resiko tersebut adalah:
