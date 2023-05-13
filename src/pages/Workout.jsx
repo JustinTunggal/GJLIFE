@@ -5,6 +5,8 @@ import Footer from "../components/footer";
 import gandhi from "../images/gandhi.png";
 import workout from "../images/workout.png";
 import Card from "../components/card";
+import Card2 from "../components/card inter";
+import Card3 from "../components/card advan";
 
 function Workout() {
   return (
@@ -55,11 +57,8 @@ function Workout() {
           Workout Recommendations
         </h1>
         <h1 className="text-[50px] text-white my-10 font-semibold">Easy</h1>
+
         <div className="flex gap-5 noScroll overflow-x-scroll scroll-smooth">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
           <Card />
         </div>
 
@@ -67,20 +66,12 @@ function Workout() {
           Intermediate
         </h1>
         <div className="flex gap-5 noScroll overflow-x-scroll scroll-smooth">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card2 />
         </div>
 
         <h1 className="text-[50px] text-white my-10 font-semibold">Advanced</h1>
         <div className="flex gap-5 noScroll overflow-x-scroll scroll-smooth">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card3 />
         </div>
       </section>
 
