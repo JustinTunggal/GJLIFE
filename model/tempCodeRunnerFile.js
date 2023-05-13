@@ -1,0 +1,1 @@
+url: DataTypes.STRING,
