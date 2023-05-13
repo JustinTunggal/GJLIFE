@@ -17,21 +17,23 @@ function dietmediterania() {
         <img className="absolute w-screen h-max" src={Medi} alt="" />
         <Header />
         <div className="relative">
-          <h1 class="text-[100px] text-white text-center drop-shadow-lg font-bold mt-[100px]">
+          <h1 className="text-[100px] text-white text-center drop-shadow-lg font-bold mt-[100px]">
             ULTRA MEDITERANIA
           </h1>
         </div>
       </section>
 
-      <section class=" text-white relative min-w-full overflow-x-hidden">
-        <div class="absolute w-max top-0 right-0">
-          <img class="bg-cover w-screen h-[588px]" src={ApaMedi} alt="" />
+      <section className=" text-white relative min-w-full overflow-x-hidden">
+        <div className="absolute w-max top-0 right-0">
+          <img className="bg-cover w-screen h-[588px]" src={ApaMedi} alt="" />
         </div>
-        <div class="bg-medi w-[500px] h-[90px] text-center mt-10 rounded-r-[20px] text-[30px] font-serif drop-shadow-lg">
-          <h1 class="py-[25px] drop-shadow-lg">Apa itu Diet Mediterania?</h1>
+        <div className="bg-medi w-[500px] h-[90px] text-center mt-10 rounded-r-[20px] text-[30px] font-serif drop-shadow-lg">
+          <h1 className="py-[25px] drop-shadow-lg">
+            Apa itu Diet Mediterania?
+          </h1>
         </div>
-        <div class="py-[30px] pb-[50px] ml-14 text-justify w-[770px] ">
-          <p class="text-[28px] text-justify font-Poppins drop-shadow-lg text-white">
+        <div className="py-[30px] pb-[50px] ml-14 text-justify w-[770px] ">
+          <p className="text-[28px] text-justify font-Poppins drop-shadow-lg text-white">
             Diet Mediterania adalah pola makan yang didasarkan pada makanan
             tradisional dari negara-negara di sekitar Laut Tengah seperti
             Italia, Spanyol, Yunani, dan Maroko. Pola makan ini mengedepankan
@@ -44,15 +46,15 @@ function dietmediterania() {
         </div>
       </section>
 
-      <section class="py-[80px] bg-grey relative">
-        <div class="bg-medi w-[400px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+      <section className="py-[80px] bg-grey relative">
+        <div className="bg-medi w-[400px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Tujuan & Manfaat
           </h1>
         </div>
 
-        <div class="py-16 mx-12 font-medium">
-          <p class="text-[28px] text-justify drop-shadow-lg">
+        <div className="py-16 mx-12 font-medium">
+          <p className="text-[28px] text-justify drop-shadow-lg">
             Tujuan dari Diet Mediterania adalah untuk meningkatkan kesehatan dan
             mencegah penyakit kronis seperti penyakit jantung, diabetes, dan
             kanker dengan mengadopsi pola makan yang kaya akan buah-buahan,
@@ -63,7 +65,7 @@ function dietmediterania() {
             kognitif.
           </p>
 
-          <p class="text-[28px] mt-10 text-justify drop-shadow-lg">
+          <p className="text-[28px] mt-10 text-justify drop-shadow-lg">
             Diet Mediterania telah terbukti memiliki banyak manfaat kesehatan,
             antara lain:
             <br /> <br />
@@ -92,9 +94,9 @@ function dietmediterania() {
             porsi makan yang seimbang dan moderasi tetap diperlukan untuk
             mencapai manfaat kesehatan yang optimal.
           </p>
-          <div class="absolute right-0 top-[320px] overflow-x-hidden">
+          <div className="absolute right-0 top-[320px] overflow-x-hidden">
             <img
-              class="grayscale bg-cover w-max h-max brightness-125 opacity-40"
+              className="grayscale bg-cover w-max h-max brightness-125 opacity-40"
               src={Benefit}
               alt=""
             />
@@ -102,18 +104,18 @@ function dietmediterania() {
         </div>
       </section>
 
-      <section class="relative pt-10 ">
-        <div class="absolute top-0">
-          <img class="bg-cover w-screen" src={MakananMedi} alt="" />
+      <section className="relative pt-10 ">
+        <div className="absolute top-0">
+          <img className="bg-cover w-screen" src={MakananMedi} alt="" />
         </div>
-        <div class="bg-medi w-[420px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+        <div className="bg-medi w-[420px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Makanan yang disarankan
           </h1>
         </div>
 
-        <div class="pt-[100px] pb-28 left-12 w-[850px] text-justify  relative">
-          <p class="text-[28px] text-justify drop-shadow-lg font-semibold font-Poppins text-white">
+        <div className="pt-[100px] pb-28 left-12 w-[850px] text-justify  relative">
+          <p className="text-[28px] text-justify drop-shadow-lg font-semibold font-Poppins text-white">
             1. Sayuran dan buah-buahan: Sayuran dan buah-buahan adalah sumber
             serat, vitamin, dan mineral yang penting untuk kesehatan tubuh.
             <br /> <br />
@@ -133,20 +135,20 @@ function dietmediterania() {
         </div>
       </section>
 
-      <section class="relative w-screen bg-pink h-screen">
+      <section className="relative w-screen bg-pink h-screen">
         <img
-          class="bg-cover absolute top-0 w-screen h-[870px]"
+          className="bg-cover absolute top-0 w-screen h-[870px]"
           src={TdkMedi}
           alt=""
         />
 
-        <div class="bg-medi absolute my-5 top-10 right-0 w-[800px] h-[90px] text-center rounded-l-2xl font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+        <div className="bg-medi absolute my-5 top-10 right-0 w-[800px] h-[90px] text-center rounded-l-2xl font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Makanan yang tidak disarankan
           </h1>
         </div>
-        <div class="text-start relative justify-start ml-[740px] py-[200px]">
-          <p class="text-[30px] text-justify text-white w-[755px]">
+        <div className="text-start relative justify-start ml-[740px] py-[200px]">
+          <p className="text-[30px] text-justify text-white w-[755px]">
             1. Daging merah dan olahan daging seperti sosis, burger, dan ham
             <br /> <br />
             2. Gorengan dan makanan cepat saji yang tinggi lemak dan kalori
@@ -162,23 +164,23 @@ function dietmediterania() {
         </div>
       </section>
 
-      <section class="mt-[72px] pt-[85px] bg-grey relative">
-        <div class="bg-medi w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
-          <h1 class="py-[25px] drop-shadow-lg text-[28px] text-white">
+      <section className="mt-[72px] pt-[85px] bg-grey relative">
+        <div className="bg-medi w-[600px] h-[90px] text-center rounded-r-[20px] font-Poppins drop-shadow-lg font-medium">
+          <h1 className="py-[25px] drop-shadow-lg text-[28px] text-white">
             Tips dalam menjalani Diet Mediterania
           </h1>
         </div>
 
-        <div class="absolute right-0 top-[350px] overflow-x-hidden">
+        <div className="absolute right-0 top-[350px] overflow-x-hidden">
           <img
-            class=" bg-cover w-max h-max filter opacity-20"
+            className=" bg-cover w-max h-max filter opacity-20"
             src={Lampu}
             alt=""
           />
         </div>
 
-        <div class="py-12 font-medium mx-10">
-          <p class="text-[35px] mt-10 font-Poppins text-justify drop-shadow-lg text-black">
+        <div className="py-12 font-medium mx-10">
+          <p className="text-[35px] mt-10 font-Poppins text-justify drop-shadow-lg text-black">
             Berikut adalah beberapa tips atau metode dari diet Mediterania:
             <br /> <br />
             1. Konsumsi makanan yang kaya akan serat: Serat dapat membantu
@@ -222,17 +224,17 @@ function dietmediterania() {
         </div>
       </section>
 
-      <section class="relative">
-        <img class="grayscale h-[1700px]" src={SakitMedi} alt="" />
+      <section className="relative">
+        <img className="grayscale h-[1700px]" src={SakitMedi} alt="" />
 
-        <div class="bg-merah absolute top-8 rounded-[25px] right-9 w-[830px] text-center h-[100px] drop-shadow-lg">
-          <h1 class="text-white text-[30px] py-7">
+        <div className="bg-merah absolute top-8 rounded-[25px] right-9 w-[830px] text-center h-[100px] drop-shadow-lg">
+          <h1 className="text-white text-[30px] py-7">
             Potensi Risiko yang perlu diperhatikan
           </h1>
         </div>
 
-        <div class="my-10 absolute right-12 ml-[670px] text-justify top-[120px] ">
-          <p class="text-[29px] font-Poppins font-medium text-merah drop-shadow-lg">
+        <div className="my-10 absolute right-12 ml-[670px] text-justify top-[120px] ">
+          <p className="text-[29px] font-Poppins font-medium text-merah drop-shadow-lg">
             Diet Mediterania cenderung aman dan sehat untuk dilakukan, karena
             didasarkan pada pola makan yang sehat dan alami seperti konsumsi
             banyak buah-buahan, sayuran, biji-bijian, kacang-kacangan, dan ikan.
