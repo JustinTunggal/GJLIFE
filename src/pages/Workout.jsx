@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import Header from "../components/header";
-import Footer from "../components/footer";
+import Footer from "../components/footer2";
 import gandhi from "../images/gandhi.png";
 import workout from "../images/workout.png";
 import Card from "../components/card";
