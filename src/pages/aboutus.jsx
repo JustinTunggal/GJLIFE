@@ -1,7 +1,8 @@
 import React from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 import Header from "../components/header2";
-import Footer from "../components/footer2";
+import Footer from "../components/footer";
 import Justin from "../images/justin.png";
 import Gerald from "../images/gerald.png";
 import Meme1 from "../images/meme (1).png";
@@ -19,7 +20,7 @@ function AboutUs() {
       <div className="flex justify-between m-20">
         <div>
           <div className="flex bg-white">
-            <div className="text-center justify-center flex group">
+            <div className="relative text-center justify-center flex group">
               <img
                 className="w-[376px] h-[376px] mix-blend-luminosity relative group-hover:blur-sm transition-all duration-300 ease-in-out"
                 src={Justin}
@@ -30,7 +31,7 @@ function AboutUs() {
               </h1>
             </div>
 
-            <div className="text-center justify-center flex group">
+            <div className="relative text-center justify-center flex group">
               <img
                 className="w-[330px] h-[317px] ml-8 mt-10 mix-blend-luminosity relative group-hover:blur-sm transition-all duration-300 ease-in-out"
                 src={Gerald}
@@ -42,11 +43,11 @@ function AboutUs() {
               </h1>
             </div>
           </div>
-          <a href="homepage.html">
+          <Link to="/">
             <h1 className="w-[550px] h-[65px] mt-10 ml-20 px-9 pt-3 text-4xl border-solid border-black outline rounded-md hover:bg-black hover:text-white hover:scale-110 transition ease-in-out duration-200">
               A Simple Way To A Better Life
             </h1>
-          </a>
+          </Link>
         </div>
         <div className="font-light">
           <h1 className="text-8xl mb-14 mt-10 ml-[150px]">ABOUT US</h1>
@@ -79,40 +80,46 @@ function AboutUs() {
 
           <div className="flex relative">
             <div>
-              <div className="mr-10 hover:scale-105 hover:brightness-75 transition-all duration-300 ease-in-out mix-blend-luminosity">
-                <img
-                  className="w-[306px] h-[237px] mix-blend-luminosity relative mb-10"
-                  src={Meme1}
-                  alt=""
-                />
-                <h1 className="text-white absolute pl-[220px] mt-[215px] top-0 bg-black w-[306px] bg-opacity-70">
-                  Follow Us
-                </h1>
-              </div>
+              <Link to="https://github.com/JustinTunggal/GJLIFE">
+                <div className="mr-10 hover:scale-105 hover:brightness-75 transition-all duration-300 ease-in-out mix-blend-luminosity">
+                  <img
+                    className="w-[306px] h-[237px] mix-blend-luminosity relative mb-10"
+                    src={Meme1}
+                    alt=""
+                  />
+                  <h1 className="text-white absolute pl-[220px] mt-[215px] top-0 bg-black w-[306px] bg-opacity-70">
+                    Follow Us
+                  </h1>
+                </div>
+              </Link>
 
-              <div className="mr-10 hover:scale-105 hover:brightness-75 transition duration-300 ease-in-out mix-blend-luminosity">
-                <img
-                  className="w-[306px] h-[216px] mix-blend-luminosity relative"
-                  src={Meme2}
-                  alt=""
-                />
-                <h1 className="text-white absolute pl-[180px] -mt-[23px] bg-black w-[306px] bg-opacity-70">
-                  Join Our Discord
-                </h1>
-              </div>
+              <Link to="https://discord.gg/8JszpDHWQb">
+                <div className="mr-10 hover:scale-105 hover:brightness-75 transition duration-300 ease-in-out mix-blend-luminosity">
+                  <img
+                    className="w-[306px] h-[216px] mix-blend-luminosity relative"
+                    src={Meme2}
+                    alt=""
+                  />
+                  <h1 className="text-white absolute pl-[180px] -mt-[23px] bg-black w-[306px] bg-opacity-70">
+                    Join Our Discord
+                  </h1>
+                </div>
+              </Link>
             </div>
 
-            <div className="hover:scale-105 hover:brightness-75 transition duration-300 ease-in-out mix-blend-luminosity">
-              <img
-                className="w-[356px] h-[493px] mix-blend-luminosity relative"
-                src={Meme3}
-                alt=""
-              />
+            <Link to="https://saweria.co/justintunggal">
+              <div className="hover:scale-105 hover:brightness-75 transition duration-300 ease-in-out mix-blend-luminosity">
+                <img
+                  className="w-[356px] h-[493px] mix-blend-luminosity relative"
+                  src={Meme3}
+                  alt=""
+                />
 
-              <h1 className="text-white absolute pl-[270px] -mt-[23px] bg-black w-[356px] bg-opacity-70">
-                Help Us
-              </h1>
-            </div>
+                <h1 className="text-white absolute pl-[270px] -mt-[23px] bg-black w-[356px] bg-opacity-70">
+                  Help Us
+                </h1>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
