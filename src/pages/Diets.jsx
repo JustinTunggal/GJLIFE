@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 import Calculator from "../components/calculator";
 import Header from "../components/header";
-import Footer from "../components/footer2";
+import Footer from "../components/footer";
 import Salmon from "../images/Greek Marinated Salmon with Asparagus _ PrimalGourmet 1.png";
 import Salmon2 from "../images/Salmon Avocado Salad 1.png";
 import Banana from "../images/Bananenbrot Granola Rezept _ gesund & einfach - Healthy Dreams 1.png";
