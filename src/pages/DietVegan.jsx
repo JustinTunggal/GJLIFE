@@ -35,16 +35,12 @@ function dietvegan() {
         </div>
         <div className="py-[30px] pb-[50px] ml-10 text-justify w-[1000px] ">
           <p className="text-[28px] text-justify font-Poppins drop-shadow-lg text-black">
-            Diet Zone adalah program diet yang diperkenalkan oleh Dr. Barry
-            Sears, seorang ahli biokimia Amerika pada tahun 1995. Diet ini
-            didasarkan pada prinsip diet yang seimbang antara karbohidrat,
-            protein, dan lemak, dengan proporsi yang tepat. Dalam diet Zone,
-            makanan dibagi menjadi tiga kategori, yaitu karbohidrat, protein,
-            dan lemak. Rasio ideal antara ketiga kategori makanan ini adalah
-            40:30:30. Hal ini berarti bahwa 40% dari kalori yang dikonsumsi
-            berasal dari karbohidrat, 30% dari protein, dan 30% dari lemak. Dr.
-            Sears percaya bahwa rasio ini akan membantu mempertahankan
-            keseimbangan hormon dan mengurangi peradangan dalam tubuh.
+            Diet vegan adalah sebuah gaya makan yang sepenuhnya berbasis
+            tumbuhan, di mana seseorang tidak mengonsumsi produk hewani atau
+            produk turunannya, termasuk daging, ikan, telur, susu, keju, dan
+            madu. Dalam diet vegan, seseorang hanya mengonsumsi makanan yang
+            berasal dari tanaman, seperti buah-buahan, sayuran, biji-bijian,
+            kacang-kacangan, dan produk olahan nabati seperti tempe dan tahu.
           </p>
         </div>
       </section>
