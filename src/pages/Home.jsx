@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 import { Link } from "react-router-dom";
 import Header from "../components/header2";
-import Footer from "../components/footer2";
+import Footer from "../components/footer";
 import Gambar1 from "../images/gambar1.png";
 import Fern from "../images/fern 1.png";
 import Daily from "../images/daily-tasks 1.png";
