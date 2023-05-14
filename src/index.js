@@ -54,6 +54,13 @@ const router = createBrowserRouter([
 
 ReactDOM.render(
   <React.StrictMode>
+  <Helmet>
+      <meta charSet="utf-8" />
+      <title className="font-bold">GJLIFE</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+      <meta name="description" content="UAS Web Pemrograman" />
+    </Helmet>
+  
     <RouterProvider router={router} />
   </React.StrictMode>,
   document.getElementById("root")
