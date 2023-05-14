@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 import Header from "../components/header2";
 import Footer from "../components/footer2";
 import Gambar1 from "../images/gambar1.png";
@@ -389,16 +390,16 @@ function homePage() {
           Now!
         </h1>
 
-        <div class="flex w-[750px] h-auto font-extralight ml-20 mt-10">
-          <a class="decoration-0 flex" href="#start">
+       <Link to="/diets">
+          <div class="flex w-[750px] h-auto font-extralight ml-20 mt-10">
             <h1 class="text-[45px]">Learn More About Life</h1>
             <img
               class="w-[69px] h-[40px] ml-10 mb-20 mt-4"
               src={Panah}
               alt=""
             />
-          </a>
-        </div>
+          </div>
+        </Link>
 
         <hr class="w-screen mx-auto bg-black dark:bg-black h-[1px] border-0" />
 
