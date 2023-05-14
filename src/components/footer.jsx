@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="bg-white">
+    <div className="bg-white2">
       <div className="flex justify-between ml-20 my-5">
         <div className="font-extralight flex-col">
           <h2 className="mb-10">Contents</h2>
